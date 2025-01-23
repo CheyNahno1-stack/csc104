@@ -1,0 +1,52 @@
+body{
+	background-color: rgb(145, 145, 115);
+    color: rgb(88, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-align: center;
+
+}
+h1{
+	color: #304368;
+	text-shadow:0 0 2px rgb(43, 48, 48);
+	font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2{
+	color: #12153b;
+	text-shadow:0 0 2px rgb(45, 45, 77);
+	font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3{
+	color: #201122;
+	font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+	color: #1f2020;
+	font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 400;
+
+}
+
+.impText{
+    color: rgb(253, 5, 5);
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+}
