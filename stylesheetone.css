@@ -1,32 +1,32 @@
-body{
-	background-color: rgb(145, 145, 115);
-    color: rgb(88, 3, 3);
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
-    font-weight: 500;
-    font-variant: small-caps;
-    text-align: center;
+body{/* anything here applies to the entire page  */
+	background-color: rgb(145, 145, 115); /* this will cover the entire the entire pages color*/
+    color: rgb(88, 3, 3); 
+    font-family: 'Times New Roman', Times, serif; /* part of the safe fonts that look good on all pages, tried a typewritter version and it made the words look to cluttered*/ 
+    font-style: oblique; /*  saw this when looking up css and wanted to try i think it works well for headers */
+    font-weight: 500; /*  this is the boldness of the words in numbers which i liked */ 
+    font-variant: small-caps; /*  this is how I was able to make all the letters small capitals */
+    text-align: center;/*  This was done after the fact when i saw the page didnt look pleasent to look at. centering a mass amount of text made it more appealing to me*/
 
 }
 h1{
-	color: #304368;
-	text-shadow:0 0 2px rgb(43, 48, 48);
+	color: #304368; /* tried to complimentary colors */
+	text-shadow:0 0 2px rgb(43, 48, 48); /* this text shadow is something i did on all text but later had to change because it made the words look funny */
 	font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    font-weight: 600;
+    font-weight: 600; /*needed this to be a litter more chunky since it would be smaller and is a header */
     text-align: center;
 }
 
 h2{
 	color: #12153b;
-	text-shadow:0 0 2px rgb(45, 45, 77);
+	text-shadow:0 0 2px rgb(45, 45, 77); /*decided to use shadow on all the headers to make them appear different */ 
 	font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    font-weight: 400;
+    font-weight: 400; /* went a little smaller so i could not make it too small and chunky */ 
     text-align: center;
 }
 
-h3{
+h3{ /*everything was the same */ 
 	color: #201122;
 	font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
@@ -34,7 +34,7 @@ h3{
     text-align: center;
 }
 
-p{
+p{ /* this didnt need to be centered I didnt need it to be necessarily but since i put it in the body tag it will still be covered */
 	color: #1f2020;
 	font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
@@ -43,10 +43,10 @@ p{
 }
 
 .impText{
-    color: rgb(253, 5, 5);
+    color: rgb(253, 5, 5); /* wanted this color to be more vibrant and stand out */ 
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    font-weight: 800;
+    font-weight: 800; /*wanted this to be bolder */ 
     text-align: center;
-    font-size: larger;
+    font-size: larger; /* because it was bolder I also wanted it to be larger and because it was important text i didnt mind it being larger than other 
 }
